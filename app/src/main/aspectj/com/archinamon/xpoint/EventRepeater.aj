@@ -2,7 +2,7 @@ package com.archinamon.xpoint;
 
 import android.app.NotificationManager;
 import android.content.Context;
-import android.support.v7.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import android.view.View;
 import android.widget.TextView;
 import com.archinamon.example.MainActivity;

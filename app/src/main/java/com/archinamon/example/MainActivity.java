@@ -9,12 +9,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.archinamon.kotlin.InfoActivity;
-import org.androidannotations.annotations.EActivity;
 
 import java.util.Locale;
 
-@EActivity
 @SuppressLint("Registered")
 public class MainActivity extends AppCompatActivity {
 

@@ -1,13 +1,20 @@
 package com.archinamon.example.dagger;
 
 import com.archinamon.example.MainActivity;
+import com.archinamon.example.MyApplication;
+
 import javax.inject.Singleton;
 import dagger.Component;
 import dagger.Module;
+import dagger.android.AndroidInjectionModule;
+import dagger.android.AndroidInjector;
 
 @Singleton
-@Component(modules={AndroidAppModule.class, MyAppScopeModule.class})
-public interface TestComponent {
+@Component(modules={AndroidAppModule.class, MyAppScopeModule.class, AndroidInjectionModule.class})
+public interface TestComponent extends AndroidInjector<MyApplication> {
 
    void inject(MainActivity activity);
+
+   @dagger.Component.Builder
+   abstract class Builder extends AndroidInjector.Builder<MyApplication> {}
 }

@@ -3,6 +3,7 @@ package com.archinamon.kotlin
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.support.design.widget.FloatingActionButton
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
@@ -20,7 +21,7 @@ class InfoActivity : AppCompatActivity() {
         val toolbar = findViewById(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
 
-        val fab = findViewById(R.id.fab)
+        val fab = findViewById<FloatingActionButton>(R.id.fab)
         fab?.setOnClickListener {
             val uri = "mailto:archinamon@gmail.com" +
                 "?subject=" + Uri.encode("Example project feedback")

@@ -1,9 +1,10 @@
 package com.archinamon.example.dagger;
 
 import android.content.Context;
+
 import com.archinamon.example.BuildConfig;
-import com.archinamon.example.MyApplication;
 import com.squareup.picasso.Picasso;
+
 import dagger.Module;
 import dagger.Provides;
 
