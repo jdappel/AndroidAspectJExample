@@ -1,11 +1,10 @@
 package com.archinamon.example.dagger;
 
-import com.archinamon.example.MainActivity;
+import com.jdappel.example.MainActivity;
 import com.archinamon.example.MyApplication;
 
 import javax.inject.Singleton;
 import dagger.Component;
-import dagger.Module;
 import dagger.android.AndroidInjectionModule;
 import dagger.android.AndroidInjector;
 

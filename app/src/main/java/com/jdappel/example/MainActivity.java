@@ -1,4 +1,4 @@
-package com.archinamon.example;
+package com.jdappel.example;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.archinamon.example.MyApplication;
+import com.archinamon.example.R;
 import com.archinamon.kotlin.InfoActivity;
 
 import java.util.Locale;

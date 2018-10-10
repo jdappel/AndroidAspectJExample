@@ -7,8 +7,6 @@ buildscript {
     dependencies {
         //Kotlin
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        // https://mvnrepository.com/artifact/org.aspectj/aspectjtools
-        classpath group: 'org.aspectj', name: 'aspectjtools', version: '1.9.1'
     }
 }
 
@@ -16,7 +14,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'com.archinamon.aspectj'
+apply plugin: 'com.jdappel.aspectj'
 
 aspectj {
     debugInfo !isTCBuild()
