@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.archinamon.example"
+<manifest package="com.jdappel.example"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:name=".MyApplication"
+        android:name="com.jdappel.example.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,13 +18,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.archinamon.kotlin.InfoActivity"
+            android:name="com.jdappel.kotlin.InfoActivity"
             android:label="@string/title_activity_info"
             android:parentActivityName="com.jdappel.example.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.archinamon.example.com.jdappel.example.MainActivity" />
+                android:value="com.jdappel.example.MainActivity" />
         </activity>
     </application>
 

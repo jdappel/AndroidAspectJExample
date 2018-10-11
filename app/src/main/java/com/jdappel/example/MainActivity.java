@@ -10,9 +10,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.archinamon.example.MyApplication;
-import com.archinamon.example.R;
-import com.archinamon.kotlin.InfoActivity;
+import com.jdappel.example.R;
+import com.jdappel.kotlin.InfoActivity;
 
 import java.util.Locale;
 
