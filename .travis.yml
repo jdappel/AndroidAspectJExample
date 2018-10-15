@@ -28,4 +28,4 @@ addons:
     paths:
       - $(git ls-files -o | grep build/outputs/apk | tr "\n" ":")
 
-script: ./gradlew :app:assembleDebug
+script: ./gradlew :app:assembleDevDebug
