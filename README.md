@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Archinamon/AndroidAspectJExample.svg?branch=master)](https://travis-ci.org/Archinamon/AndroidAspectJExample)
+[![Build Status](https://travis-ci.org/jdappel/AndroidAspectJExample.svg?branch=master)](https://travis-ci.org/jdappel/AndroidAspectJExample)
 
 # AspectJExampleAndroid
 demo project releasing aspectJ environment
