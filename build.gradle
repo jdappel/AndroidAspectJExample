@@ -3,10 +3,11 @@ buildscript {
         jcenter()
         mavenCentral()
         google()
+        mavenLocal()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0'
-        classpath "com.jdappel:android-gradle-aspectj:3.3.0"
+        classpath "com.jdappel:android-gradle-aspectj:3.4.0-SNAPSHOT"
         classpath group: 'org.aspectj', name: 'aspectjtools', version: '1.9.1'
     }
 }
@@ -20,6 +21,7 @@ allprojects {
             name = 'github'
             url 'https://jitpack.io'
         }
+        mavenLocal()
     }
 }
 
